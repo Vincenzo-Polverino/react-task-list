@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 1rem;
+}
+
+main {
+  margin: 1rem;
+
+  .state {
+    background-color: chocolate;
+    color: white;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+  }
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  p,
+  h4 {
+    padding-top: 0.5rem;
+  }
+}
